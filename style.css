@@ -1,0 +1,94 @@
+/* Reset básico */
+body, h1, h2, p, ul, li, a, button, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f8fdf9, #edf6f3, #e8f5e9); /* Verde muito sutil e tons neutros */
+    background-attachment: fixed; /* Para manter o fundo fixo enquanto rola a página */
+    background-size: cover;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background: #2d6a4f;
+    color: #fff;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Banner Principal */
+  .main-banner {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .main-banner img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  .main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .main-text h2 {
+    font-size: 36px;
+  }
+  
+  /* Seções */
+  .info-section, .map-section, .contact-section {
+    padding: 50px 10%;
+    text-align: center;
+  }
+  
+  .info-section h2, .map-section h2, .contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Rodapé */
+  footer {
+    background: #2d6a4f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
